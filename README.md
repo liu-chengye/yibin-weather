@@ -10,6 +10,8 @@ https://yibin-weather-genera-262m.bolt.host
 
 第一版已发布（2026-11-25），移动端优先，打开即用。实测 HTTP 200，平均加载 1.7 秒。
 
+![手机端界面](assets/mobile-screenshot.jpg)
+
 ## 它解决什么问题
 
 每天早上要给家人发一段宜宾的天气提醒，手打一段话要五分钟，还容易漏掉穿衣和出行提醒。
@@ -28,7 +30,7 @@ https://yibin-weather-genera-262m.bolt.host
 - [x] 第一版页面完成并发布（2026-11-25，Bolt.new 生成）
 - [ ] 接入真实天气数据源，去掉手动输入
 - [ ] 支持多城市切换（宜宾 / 成都 / 宝清）
-- [ ] 补充手机端截图到本 README
+- [x] 补充手机端截图到本 README（`assets/mobile-screenshot.jpg`）
 
 ## 技术说明
 
