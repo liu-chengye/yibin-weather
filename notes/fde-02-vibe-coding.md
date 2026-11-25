@@ -40,8 +40,19 @@ https://cloud.tencent.com/developer/article/2627120 （2026-11-25 已实际打�
 - Publish 后打不开：检查是否点了 Deploy 而不是 Preview，链接要以 https 开头；
 - 免费额度用完：换备选工具，或第二天再试。
 
-## 六、产出登记
+## 六、产出登记（2026-11-25 已完成）
 
-- 工具链接：待补
-- 截图位置：待补
-- GitHub 仓库：https://github.com/liu-chengye/yibin-weather（待建）
+- 工具链接：https://yibin-weather-genera-262m.bolt.host （已发布，实测 HTTP 200，1.76 秒）
+- 页面标题：宜宾每日天气 · Yibin Daily Weather
+- 功能：五个输入框（最高温度、最低温度、天气状况、风力风向、补充说明）+ 生成播报按钮 + 一键复制
+- GitHub 仓库：https://github.com/liu-chengye/yibin-weather
+- 截图位置：待补（截图后放 `素材\`）
+
+## 七、实际做下来踩到的点
+
+1. 提交后左侧显示 "Agent is starting..."，属于正常启动阶段，等 1 到 5 分钟，不要重复提交，重复会新建项目、多耗一份 token；
+2. 生成完成前面板会显示 "Build passes"，右侧预览自动刷新；
+3. 输入框为空时"生成播报"按钮是灰色的、点不动，这是防呆设计，不是 bug；
+4. 发布后拿到的是 `.bolt.host` 随机后缀域名，免费版页面右下角带 "Made in Bolt" 标识，属免费计划正常现象；
+5. 免费版每天 300K token、每月 1M，一个这种小页面加两三轮修改大概消耗 100K 到 200K。
+
